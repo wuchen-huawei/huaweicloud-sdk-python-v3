@@ -31,7 +31,7 @@ class DownloadApplicationCodeResponse(SdkStreamResponse):
     def __init__(self,response):
         """DownloadApplicationCodeResponse - a model defined in huaweicloud sdk"""
         
-        super().__init__(response)
+        super(DownloadApplicationCodeResponse, self).__init__(response)
         self.discriminator = None
 
     def to_dict(self):
